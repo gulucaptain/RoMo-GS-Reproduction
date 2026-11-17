@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.mplconfig/
+paper/*.html
+paper/*.pdf
+data/downloads/
+data/tum/
+data/prepared/
+results/phase2/local_data/

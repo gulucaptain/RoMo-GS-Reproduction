@@ -1,0 +1,198 @@
+[
+  {
+    "run": "freiburg1_desk_controlled_analytic_cpu_seed0",
+    "path": "results/phase2/predictions/freiburg1_desk_controlled_analytic_cpu_seed0_predictions.npz",
+    "render_device": "cpu",
+    "sha256": "46c1c341ab23ab74bde4354150f338fe99fd9fe84d184ad83b64a193f05ff374",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_controlled_analytic_mps_seed0",
+    "path": "results/phase2/predictions/freiburg1_desk_controlled_analytic_mps_seed0_predictions.npz",
+    "render_device": "mps",
+    "sha256": "35d1314412dc18bd03b7e3640cac9f02e690cdb631f56b25f1f35398d8718ce9",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_controlled_analytic_mps_seed1",
+    "path": "results/phase2/predictions/freiburg1_desk_controlled_analytic_mps_seed1_predictions.npz",
+    "render_device": "mps",
+    "sha256": "365d48ed977396bd347905dff8a01e2a8a06a97dc889c0965b4875c74cddbeac",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_controlled_analytic_mps_seed2",
+    "path": "results/phase2/predictions/freiburg1_desk_controlled_analytic_mps_seed2_predictions.npz",
+    "render_device": "mps",
+    "sha256": "ea4afdfecec2019db309c9c876bb12012508c2390db1e117f41a847e8a26f095",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_controlled_midpoint_cpu_seed0",
+    "path": "results/phase2/predictions/freiburg1_desk_controlled_midpoint_cpu_seed0_predictions.npz",
+    "render_device": "cpu",
+    "sha256": "090f63c836951e06e32580d0a04dc4c1bf4e8da380351f905295c80604361c34",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_controlled_midpoint_mps_seed0",
+    "path": "results/phase2/predictions/freiburg1_desk_controlled_midpoint_mps_seed0_predictions.npz",
+    "render_device": "mps",
+    "sha256": "d23caa42cdb6d6eadec1c2d8e3ac2a1e1858eee65f69e497dd4c7a2be83a5f9e",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_controlled_midpoint_mps_seed1",
+    "path": "results/phase2/predictions/freiburg1_desk_controlled_midpoint_mps_seed1_predictions.npz",
+    "render_device": "mps",
+    "sha256": "6271bd2ac8ad954a50d608f9056c427100dd07dae0a67bf33bde8a8fe6e0de89",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_controlled_midpoint_mps_seed2",
+    "path": "results/phase2/predictions/freiburg1_desk_controlled_midpoint_mps_seed2_predictions.npz",
+    "render_device": "mps",
+    "sha256": "590bda4b5982da4bcc49c317672ea9dbe64fbba55ae3ab7afd759a411c3876e9",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_native_analytic_mps_seed0",
+    "path": "results/phase2/predictions/freiburg1_desk_native_analytic_mps_seed0_predictions.npz",
+    "render_device": "mps",
+    "sha256": "032e899e76bd74cd0d48e363e6fde0af8b35ca70084e6f21729dcf6ed7a88def",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_native_analytic_mps_seed1",
+    "path": "results/phase2/predictions/freiburg1_desk_native_analytic_mps_seed1_predictions.npz",
+    "render_device": "mps",
+    "sha256": "9c2c440c34d8c1e5ddd8055797caf218309ea561018803227906f47ce2a315c7",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_native_analytic_mps_seed2",
+    "path": "results/phase2/predictions/freiburg1_desk_native_analytic_mps_seed2_predictions.npz",
+    "render_device": "mps",
+    "sha256": "845503f24da39f70971a719d2c1f107ec699bc5cfe7e2061aa2d67f3a865378b",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_native_midpoint_mps_seed0",
+    "path": "results/phase2/predictions/freiburg1_desk_native_midpoint_mps_seed0_predictions.npz",
+    "render_device": "mps",
+    "sha256": "4420dc651b136743bc94cfddd016b662c6a7ae59db6ee6f1e8d465c36c1d1cc1",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_native_midpoint_mps_seed1",
+    "path": "results/phase2/predictions/freiburg1_desk_native_midpoint_mps_seed1_predictions.npz",
+    "render_device": "mps",
+    "sha256": "daf50ab0b0c5f67a1785afd3f8488b82157160acb9b7e4eea9fae26c012e37a3",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_desk_native_midpoint_mps_seed2",
+    "path": "results/phase2/predictions/freiburg1_desk_native_midpoint_mps_seed2_predictions.npz",
+    "render_device": "mps",
+    "sha256": "eab32471ef81a4946c47428680f3ddb2b586373e30ad9afafec73d30afbfaf53",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_analytic_cpu_seed0",
+    "path": "results/phase2/predictions/freiburg1_xyz_controlled_analytic_cpu_seed0_predictions.npz",
+    "render_device": "cpu",
+    "sha256": "b3724ba4c265e0cf8bcf856c7989dd4a1cc4ea68798add268aeadbaef06dc245",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_analytic_mps_seed0",
+    "path": "results/phase2/predictions/freiburg1_xyz_controlled_analytic_mps_seed0_predictions.npz",
+    "render_device": "mps",
+    "sha256": "19c57e286035a8144957c31867ced405a27d1efbdedfec5b22ef338fd4736df8",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_analytic_mps_seed1",
+    "path": "results/phase2/predictions/freiburg1_xyz_controlled_analytic_mps_seed1_predictions.npz",
+    "render_device": "mps",
+    "sha256": "00b699fd3165995d473c99795ca035970e79c9e926bae6e504325f466326c544",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_analytic_mps_seed2",
+    "path": "results/phase2/predictions/freiburg1_xyz_controlled_analytic_mps_seed2_predictions.npz",
+    "render_device": "mps",
+    "sha256": "faa6b842245d2d2367001203338c6e331da3264d6327ce17971fb47a165fd214",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_midpoint_cpu_seed0",
+    "path": "results/phase2/predictions/freiburg1_xyz_controlled_midpoint_cpu_seed0_predictions.npz",
+    "render_device": "cpu",
+    "sha256": "b855f318bfabef9f57d9824a7dcefd52c936353dad31d0c4683bb937bab5ed3e",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_midpoint_mps_seed0",
+    "path": "results/phase2/predictions/freiburg1_xyz_controlled_midpoint_mps_seed0_predictions.npz",
+    "render_device": "mps",
+    "sha256": "19a819c697ee0b100e6d34a651ae0f4549b688844b4dc2efed2fb555aff6e023",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_midpoint_mps_seed1",
+    "path": "results/phase2/predictions/freiburg1_xyz_controlled_midpoint_mps_seed1_predictions.npz",
+    "render_device": "mps",
+    "sha256": "87cd0115a77e9bc30602e6bf8860cbdf48441b996d13d2b896f36bef864c165b",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_midpoint_mps_seed2",
+    "path": "results/phase2/predictions/freiburg1_xyz_controlled_midpoint_mps_seed2_predictions.npz",
+    "render_device": "mps",
+    "sha256": "ab26148cf6d393fa7c035d95e90c5a46c9fa2c72318d022f6d4e4444ff90cc08",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_native_analytic_mps_seed0",
+    "path": "results/phase2/predictions/freiburg1_xyz_native_analytic_mps_seed0_predictions.npz",
+    "render_device": "mps",
+    "sha256": "76a6d9cc1036ad95152f123b821c5e513559c8c0b1f8545f4de9e610273ccf98",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_native_analytic_mps_seed1",
+    "path": "results/phase2/predictions/freiburg1_xyz_native_analytic_mps_seed1_predictions.npz",
+    "render_device": "mps",
+    "sha256": "4a6cbd5aafbee1ea454041029ac60bd89a80a6e3daa1194f0c61d3c1f2cfef27",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_native_analytic_mps_seed2",
+    "path": "results/phase2/predictions/freiburg1_xyz_native_analytic_mps_seed2_predictions.npz",
+    "render_device": "mps",
+    "sha256": "dbd045484b5b45c778c8ca2fa0e58a4ced15c0f8402cc92437583ca283a4af3c",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_native_midpoint_mps_seed0",
+    "path": "results/phase2/predictions/freiburg1_xyz_native_midpoint_mps_seed0_predictions.npz",
+    "render_device": "mps",
+    "sha256": "e583add7a3b3cf2739640263f397cfae9342beb8a7536c69f164ae61c39c82da",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_native_midpoint_mps_seed1",
+    "path": "results/phase2/predictions/freiburg1_xyz_native_midpoint_mps_seed1_predictions.npz",
+    "render_device": "mps",
+    "sha256": "043e5fdcb157d3d13e3a80fa34b7725c9bf398c59431c9480953c14801648293",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  },
+  {
+    "run": "freiburg1_xyz_native_midpoint_mps_seed2",
+    "path": "results/phase2/predictions/freiburg1_xyz_native_midpoint_mps_seed2_predictions.npz",
+    "render_device": "mps",
+    "sha256": "4d49061e3881538196af4f212df7531723e4fed7a29009209eb147752ccefd46",
+    "contents": "Only model-rendered held-out RGB/depth/alpha and exposure-rendered RGB; no original input RGB-D"
+  }
+]

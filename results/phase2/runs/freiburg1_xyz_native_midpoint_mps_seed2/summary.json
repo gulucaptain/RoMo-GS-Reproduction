@@ -1,0 +1,148 @@
+{
+  "sequence": "freiburg1_xyz",
+  "track": "native",
+  "method": "midpoint",
+  "device": "mps",
+  "seed": 2,
+  "steps": 150,
+  "gaussians": 2400,
+  "initial": {
+    "reference_psnr": 14.795153443743217,
+    "reference_ssim_mean": 0.45937821865081785,
+    "center_vs_original_rgb_psnr": 14.789400833669536,
+    "observation_psnr": 14.795153443743217,
+    "full_native_valid_center_psnr": 14.789400833669536,
+    "full_native_valid_rgb_values": 79131,
+    "depth_rmse_m": 0.22471819283611622,
+    "alpha90_coverage": 0.7754398107528686,
+    "evaluation_rgb_values": 79131,
+    "per_view": [
+      {
+        "view": 2,
+        "masked_reference_psnr": 15.745737075805664,
+        "masked_ssim": 0.46972033381462097,
+        "depth_rmse_m": 0.21958918869495392,
+        "alpha90_coverage": 0.8394381999969482,
+        "evaluation_pixels": 5269,
+        "full_native_valid_center_psnr": 15.738248825073242,
+        "full_native_valid_pixels": 5269
+      },
+      {
+        "view": 5,
+        "masked_reference_psnr": 15.21257495880127,
+        "masked_ssim": 0.4425846338272095,
+        "depth_rmse_m": 0.22799040377140045,
+        "alpha90_coverage": 0.8431987166404724,
+        "evaluation_pixels": 5102,
+        "full_native_valid_center_psnr": 15.212058067321777,
+        "full_native_valid_pixels": 5102
+      },
+      {
+        "view": 8,
+        "masked_reference_psnr": 15.763758659362793,
+        "masked_ssim": 0.4798141419887543,
+        "depth_rmse_m": 0.20347024500370026,
+        "alpha90_coverage": 0.8228141069412231,
+        "evaluation_pixels": 5181,
+        "full_native_valid_center_psnr": 15.75915813446045,
+        "full_native_valid_pixels": 5181
+      },
+      {
+        "view": 11,
+        "masked_reference_psnr": 15.073827743530273,
+        "masked_ssim": 0.47280192375183105,
+        "depth_rmse_m": 0.24313046038150787,
+        "alpha90_coverage": 0.747269332408905,
+        "evaluation_pixels": 5310,
+        "full_native_valid_center_psnr": 15.071235656738281,
+        "full_native_valid_pixels": 5310
+      },
+      {
+        "view": 14,
+        "masked_reference_psnr": 12.97604751586914,
+        "masked_ssim": 0.4319700598716736,
+        "depth_rmse_m": 0.2270643264055252,
+        "alpha90_coverage": 0.6244786977767944,
+        "evaluation_pixels": 5515,
+        "full_native_valid_center_psnr": 12.965835571289062,
+        "full_native_valid_pixels": 5515
+      }
+    ]
+  },
+  "final": {
+    "reference_psnr": 22.691415774650558,
+    "reference_ssim_mean": 0.8993179082870484,
+    "center_vs_original_rgb_psnr": 22.692796529064395,
+    "observation_psnr": 22.691415774650558,
+    "full_native_valid_center_psnr": 22.692796529064395,
+    "full_native_valid_rgb_values": 79131,
+    "depth_rmse_m": 0.17932346222988407,
+    "alpha90_coverage": 0.8452592134475708,
+    "evaluation_rgb_values": 79131,
+    "per_view": [
+      {
+        "view": 2,
+        "masked_reference_psnr": 23.954450607299805,
+        "masked_ssim": 0.9126492738723755,
+        "depth_rmse_m": 0.2357712686061859,
+        "alpha90_coverage": 0.8434237837791443,
+        "evaluation_pixels": 5269,
+        "full_native_valid_center_psnr": 23.954084396362305,
+        "full_native_valid_pixels": 5269
+      },
+      {
+        "view": 5,
+        "masked_reference_psnr": 24.52800750732422,
+        "masked_ssim": 0.905530571937561,
+        "depth_rmse_m": 0.15442141890525818,
+        "alpha90_coverage": 0.8731870055198669,
+        "evaluation_pixels": 5102,
+        "full_native_valid_center_psnr": 24.534332275390625,
+        "full_native_valid_pixels": 5102
+      },
+      {
+        "view": 8,
+        "masked_reference_psnr": 25.853557586669922,
+        "masked_ssim": 0.9282755851745605,
+        "depth_rmse_m": 0.16821523010730743,
+        "alpha90_coverage": 0.8662420511245728,
+        "evaluation_pixels": 5181,
+        "full_native_valid_center_psnr": 25.88921356201172,
+        "full_native_valid_pixels": 5181
+      },
+      {
+        "view": 11,
+        "masked_reference_psnr": 24.193641662597656,
+        "masked_ssim": 0.9076442718505859,
+        "depth_rmse_m": 0.1675727367401123,
+        "alpha90_coverage": 0.8662900328636169,
+        "evaluation_pixels": 5310,
+        "full_native_valid_center_psnr": 24.204729080200195,
+        "full_native_valid_pixels": 5310
+      },
+      {
+        "view": 14,
+        "masked_reference_psnr": 19.0224666595459,
+        "masked_ssim": 0.8424898386001587,
+        "depth_rmse_m": 0.15814846754074097,
+        "alpha90_coverage": 0.7771531939506531,
+        "evaluation_pixels": 5515,
+        "full_native_valid_center_psnr": 19.01361846923828,
+        "full_native_valid_pixels": 5515
+      }
+    ]
+  },
+  "training_seconds": 175.03482091601472,
+  "median_step_seconds": 1.1354919584700838,
+  "memory": {
+    "process_peak_rss_bytes": 1153384448,
+    "mps_baseline_live_bytes": 3514624,
+    "mps_sampled_peak_live_bytes": 634958592,
+    "mps_sampled_peak_driver_bytes": 1161560064,
+    "mps_sampled_peak_increment_bytes": 631443968,
+    "mps_samples": 69931,
+    "sampling_period_seconds": 0.002,
+    "measurement_note": "RSS high-water since process start; MPS live/driver sampled at2ms; overlap in unified memory, do not sum"
+  },
+  "interpretation": "Held-out original RGB reference; controlled track adds generated blur; native sensor clean GT unavailable."
+}

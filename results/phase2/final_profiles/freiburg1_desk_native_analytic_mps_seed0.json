@@ -1,0 +1,201 @@
+{
+  "run": "freiburg1_desk_native_analytic_mps_seed0",
+  "device": "mps",
+  "seed": 0,
+  "sequence": "freiburg1_desk",
+  "track": "native",
+  "method": "analytic",
+  "gaussians": 2400,
+  "resolution": [
+    96,
+    72
+  ],
+  "tile": 32,
+  "chunk": 256,
+  "samples": 10,
+  "inference_median_seconds": 0.12437754101119936,
+  "forward_backward_median_seconds": 0.4935905409511179,
+  "inference_memory": {
+    "process_peak_rss_bytes": 381861888,
+    "mps_baseline_live_bytes": 3476480,
+    "mps_sampled_peak_live_bytes": 28053504,
+    "mps_sampled_peak_driver_bytes": 70008832,
+    "mps_sampled_peak_increment_bytes": 24577024,
+    "mps_samples": 624,
+    "sampling_period_seconds": 0.002,
+    "measurement_note": "RSS high-water since process start; MPS live/driver sampled at2ms; overlap in unified memory, do not sum"
+  },
+  "forward_backward_memory": {
+    "process_peak_rss_bytes": 503562240,
+    "mps_baseline_live_bytes": 3476480,
+    "mps_sampled_peak_live_bytes": 138024448,
+    "mps_sampled_peak_driver_bytes": 162250752,
+    "mps_sampled_peak_increment_bytes": 134547968,
+    "mps_samples": 481,
+    "sampling_period_seconds": 0.002,
+    "measurement_note": "RSS high-water since process start; MPS live/driver sampled at2ms; overlap in unified memory, do not sum"
+  },
+  "inference_raw": [
+    {
+      "repeat": 0,
+      "view": 2,
+      "seconds": 0.1362516660010442
+    },
+    {
+      "repeat": 0,
+      "view": 5,
+      "seconds": 0.11758587509393692
+    },
+    {
+      "repeat": 0,
+      "view": 8,
+      "seconds": 0.12604645895771682
+    },
+    {
+      "repeat": 0,
+      "view": 11,
+      "seconds": 0.12241295899730176
+    },
+    {
+      "repeat": 0,
+      "view": 14,
+      "seconds": 0.12010412500239909
+    },
+    {
+      "repeat": 1,
+      "view": 2,
+      "seconds": 0.1403697500936687
+    },
+    {
+      "repeat": 1,
+      "view": 5,
+      "seconds": 0.12214225006755441
+    },
+    {
+      "repeat": 1,
+      "view": 8,
+      "seconds": 0.12859462504275143
+    },
+    {
+      "repeat": 1,
+      "view": 11,
+      "seconds": 0.12649758299812675
+    },
+    {
+      "repeat": 1,
+      "view": 14,
+      "seconds": 0.12437754101119936
+    },
+    {
+      "repeat": 2,
+      "view": 2,
+      "seconds": 0.12647470796946436
+    },
+    {
+      "repeat": 2,
+      "view": 5,
+      "seconds": 0.12307058298029006
+    },
+    {
+      "repeat": 2,
+      "view": 8,
+      "seconds": 0.12585137505084276
+    },
+    {
+      "repeat": 2,
+      "view": 11,
+      "seconds": 0.1208837500307709
+    },
+    {
+      "repeat": 2,
+      "view": 14,
+      "seconds": 0.11271737504284829
+    }
+  ],
+  "forward_backward_raw": [
+    {
+      "repeat": 0,
+      "forward_seconds": 0.15450541698373854,
+      "backward_seconds": 0.39235383307095617,
+      "total_seconds": 0.5468592500546947
+    },
+    {
+      "repeat": 1,
+      "forward_seconds": 0.11537549993954599,
+      "backward_seconds": 0.2847716660471633,
+      "total_seconds": 0.4001471659867093
+    },
+    {
+      "repeat": 2,
+      "forward_seconds": 0.12157099996693432,
+      "backward_seconds": 0.37201954098418355,
+      "total_seconds": 0.4935905409511179
+    }
+  ],
+  "quality": {
+    "reference_psnr": 19.70914065433758,
+    "reference_ssim_mean": 0.8339688777923584,
+    "center_vs_original_rgb_psnr": 19.70323247645758,
+    "observation_psnr": 19.70914065433758,
+    "full_native_valid_center_psnr": 19.70323247645758,
+    "full_native_valid_rgb_values": 76044,
+    "depth_rmse_m": 0.2523982334498947,
+    "alpha90_coverage": 0.7455363273620605,
+    "evaluation_rgb_values": 76044,
+    "per_view": [
+      {
+        "view": 2,
+        "masked_reference_psnr": 19.958982467651367,
+        "masked_ssim": 0.8476429581642151,
+        "depth_rmse_m": 0.15540963411331177,
+        "alpha90_coverage": 0.7074751853942871,
+        "evaluation_pixels": 5244,
+        "full_native_valid_center_psnr": 19.931499481201172,
+        "full_native_valid_pixels": 5244
+      },
+      {
+        "view": 5,
+        "masked_reference_psnr": 21.25291633605957,
+        "masked_ssim": 0.8756597638130188,
+        "depth_rmse_m": 0.17031221091747284,
+        "alpha90_coverage": 0.7275318503379822,
+        "evaluation_pixels": 5263,
+        "full_native_valid_center_psnr": 21.235626220703125,
+        "full_native_valid_pixels": 5263
+      },
+      {
+        "view": 8,
+        "masked_reference_psnr": 20.255367279052734,
+        "masked_ssim": 0.8299216628074646,
+        "depth_rmse_m": 0.22858259081840515,
+        "alpha90_coverage": 0.8105496168136597,
+        "evaluation_pixels": 4967,
+        "full_native_valid_center_psnr": 20.268489837646484,
+        "full_native_valid_pixels": 4967
+      },
+      {
+        "view": 11,
+        "masked_reference_psnr": 20.195499420166016,
+        "masked_ssim": 0.8343119621276855,
+        "depth_rmse_m": 0.2899555563926697,
+        "alpha90_coverage": 0.8063549399375916,
+        "evaluation_pixels": 5004,
+        "full_native_valid_center_psnr": 20.192474365234375,
+        "full_native_valid_pixels": 5004
+      },
+      {
+        "view": 14,
+        "masked_reference_psnr": 17.63308334350586,
+        "masked_ssim": 0.782308042049408,
+        "depth_rmse_m": 0.3668065369129181,
+        "alpha90_coverage": 0.6757700443267822,
+        "evaluation_pixels": 4870,
+        "full_native_valid_center_psnr": 17.633935928344727,
+        "full_native_valid_pixels": 4870
+      }
+    ]
+  },
+  "parameter_sha256": "2660d200105755456359c61046ce02e5e20253d98ce042f4744ca787092887a4",
+  "script_sha256": "804add7068cae71fd87a4f8948a5b8973d736bddc67f41b755826c5b8117f300",
+  "scope": "Saved150-step seed0 model; inference15timings across5held-out views; forward/back3timings atfirst training view; fresh process per case, no concurrent training; renderer loss is mean square of all5output channels, not a full optimizer step"
+}

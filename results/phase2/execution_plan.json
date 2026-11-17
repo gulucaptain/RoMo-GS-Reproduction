@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-17",
+  "steps": 150,
+  "primary_device": "mps",
+  "primary_seeds": [
+    0,
+    1,
+    2
+  ],
+  "cpu_control_seeds": [
+    0
+  ],
+  "cpu_tracks": [
+    "controlled"
+  ],
+  "mps_tracks": [
+    "native",
+    "controlled"
+  ],
+  "sequences": [
+    "freiburg1_xyz",
+    "freiburg1_desk"
+  ],
+  "methods": [
+    "analytic",
+    "midpoint"
+  ],
+  "planned_runs": 28,
+  "training_workers": {
+    "cpu": 2,
+    "mps": 2
+  },
+  "performance": "20 sequential isolated profile cases completed before training; training wall-clock is not the isolated benchmark",
+  "source_hashes": {
+    "romo_gs/tiled.py": "4044b6f1416991b08eab0332b85f0b14c7cfb09b299365300bf4a8c6a77258a6",
+    "romo_gs/measurement.py": "55b5173e2ab08aac412ab14ebc9e00a393f5a56612d6683ceae143ff84dcf3c7",
+    "scripts/rgbd_experiment.py": "eb8b6af43debc1a627ebbc2a1e95ed609c4348fbb633dc4b3daad5e6e281834e",
+    "scripts/prepare_rgbd.py": "37f5009cc4fbda3f84ee1d3c132d9a9ad17864e9b693d1970b3445ca5263f143",
+    "scripts/run_phase2.py": "34c7c8c4d04632938c073430f8704d3af344d4be197de8436feb05df306c23f3",
+    "scripts/profile_tiled.py": "86473349fbfdfc861326405484ce76057d20b706e982d11114e00ff7672fcb02"
+  }
+}

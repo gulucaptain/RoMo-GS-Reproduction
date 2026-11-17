@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-17",
+  "platform": "macOS-15.7.1-arm64-arm-64bit",
+  "python": "3.12.13 (main, Aug  7 2026, 02:15:23) [Clang 22.1.3 ]",
+  "torch": "2.15.0",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "pillow": "13.0.0",
+  "cpu_threads_per_process": 1,
+  "chip": "Apple M4 Pro",
+  "memory_GiB": 48,
+  "mps_verified_by": "10successful isolated initializer profiles and24completed formal MPS runs",
+  "mps_fallback": "not enabled",
+  "training_workers": {
+    "cpu": 2,
+    "mps": 2
+  },
+  "performance_protocol": "one isolated process per case, before concurrent training",
+  "prepared_data_hashes": {
+    "freiburg1_xyz": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+    "freiburg1_desk": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da"
+  }
+}

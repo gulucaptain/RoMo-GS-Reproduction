@@ -1,0 +1,11 @@
+{
+  "paper": "RoMo-GS: Efficient Online 3D Gaussian Splatting for Robot Mapping via Exposure-Integrated Motion Blur",
+  "version": "2610.24605v1",
+  "url": "https://arxiv.org/html/2610.24605v1",
+  "reviewed": "2026-11-17",
+  "sha256": "8123673cdd06c9d8d0fef171661ee3e583ebe185b416d4696accbfd0b17f2f20",
+  "cache_distributed": false,
+  "project": "https://romo-gs.github.io/",
+  "code_status_on_review": "Code TBD; official organization only lists website repository",
+  "scope": "Equations 2-4 and Appendix B; no author code used"
+}

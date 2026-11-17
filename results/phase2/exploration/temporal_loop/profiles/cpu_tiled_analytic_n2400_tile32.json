@@ -1,0 +1,48 @@
+{
+  "device": "cpu",
+  "backend": "tiled",
+  "method": "analytic",
+  "gaussians": 2400,
+  "samples": 10,
+  "tile": 32,
+  "repeats": 3,
+  "scene": "freiburg1_xyz/frame0",
+  "size": [
+    96,
+    72
+  ],
+  "cpu_threads": 1,
+  "warmups": 1,
+  "median_forward_seconds": 0.20220233406871557,
+  "median_backward_seconds": 0.2907035000389442,
+  "median_total_seconds": 0.48902025003917515,
+  "retained_forward_unique_storage_bytes": 542044616,
+  "memory": {
+    "process_peak_rss_bytes": 1241317376,
+    "mps_baseline_live_bytes": 0,
+    "mps_sampled_peak_live_bytes": 0,
+    "mps_sampled_peak_driver_bytes": 0,
+    "mps_sampled_peak_increment_bytes": 0,
+    "mps_samples": 2,
+    "sampling_period_seconds": 0.002,
+    "measurement_note": "RSS high-water since process start; MPS live/driver sampled at2ms; overlap in unified memory, do not sum"
+  },
+  "raw_timings": [
+    {
+      "forward_seconds": 0.19831675000023097,
+      "backward_seconds": 0.2907035000389442,
+      "total_seconds": 0.48902025003917515
+    },
+    {
+      "forward_seconds": 0.20220233406871557,
+      "backward_seconds": 0.29612420802004635,
+      "total_seconds": 0.4983265420887619
+    },
+    {
+      "forward_seconds": 0.2081412080442533,
+      "backward_seconds": 0.2776167920092121,
+      "total_seconds": 0.48575800005346537
+    }
+  ],
+  "comparison_note": "Fresh process per case; full position/covariance/color/opacity gradients. CPU planning+GPU computation included. No training process runs concurrently."
+}

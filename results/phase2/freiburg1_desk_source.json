@@ -1,0 +1,500 @@
+{
+  "sequence": "freiburg1_desk",
+  "url": "https://cvg.cit.tum.de/rgbd/dataset/freiburg1/rgbd_dataset_freiburg1_desk.tgz",
+  "archive_sha256": "e983d6830916e66dc4a46a71368046b149b283de87769690e7aa4e0b9483530c",
+  "archive_bytes": 344011403,
+  "prepared_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+  "reviewed": "2026-11-17",
+  "resolution": [
+    96,
+    72
+  ],
+  "frames": [
+    {
+      "frame_id": 0,
+      "rgb_index": 151,
+      "timestamp": 1305031457.827699,
+      "rgb": "rgb/1305031457.827699.png",
+      "depth": "depth/1305031457.842853.png",
+      "depth_timestamp": 1305031457.842853,
+      "rgb_depth_dt": 0.015154123306274414,
+      "native_valid_fraction": 0.7787905092592593,
+      "controlled_valid_fraction": 0.20992476851851852,
+      "local_linear_velocity": [
+        -0.42284357813354434,
+        -0.16959389502973757,
+        -0.26555294317268147
+      ],
+      "local_angular_velocity": [
+        0.41832030274396736,
+        0.4841133311468407,
+        0.08803321025881133
+      ]
+    },
+    {
+      "frame_id": 1,
+      "rgb_index": 154,
+      "timestamp": 1305031457.927633,
+      "rgb": "rgb/1305031457.927633.png",
+      "depth": "depth/1305031457.942604.png",
+      "depth_timestamp": 1305031457.942604,
+      "rgb_depth_dt": 0.014971017837524414,
+      "native_valid_fraction": 0.7715567129629629,
+      "controlled_valid_fraction": 0.1697048611111111,
+      "local_linear_velocity": [
+        -0.44169587024619267,
+        -0.1730017452362486,
+        -0.18050000262811536
+      ],
+      "local_angular_velocity": [
+        0.40308985043801443,
+        0.13973543760978818,
+        0.22329023336740306
+      ]
+    },
+    {
+      "frame_id": 2,
+      "rgb_index": 157,
+      "timestamp": 1305031458.027845,
+      "rgb": "rgb/1305031458.027845.png",
+      "depth": "depth/1305031458.046303.png",
+      "depth_timestamp": 1305031458.046303,
+      "rgb_depth_dt": 0.018458127975463867,
+      "native_valid_fraction": 0.7586805555555556,
+      "controlled_valid_fraction": 0.14380787037037038,
+      "local_linear_velocity": [
+        -0.507840790431646,
+        -0.12853278501042442,
+        -0.01337167512707389
+      ],
+      "local_angular_velocity": [
+        0.36277983562369553,
+        0.28497487525009507,
+        0.1520090783355669
+      ]
+    },
+    {
+      "frame_id": 3,
+      "rgb_index": 160,
+      "timestamp": 1305031458.127605,
+      "rgb": "rgb/1305031458.127605.png",
+      "depth": "depth/1305031458.144808.png",
+      "depth_timestamp": 1305031458.144808,
+      "rgb_depth_dt": 0.017203092575073242,
+      "native_valid_fraction": 0.73046875,
+      "controlled_valid_fraction": 0.17086226851851852,
+      "local_linear_velocity": [
+        -0.5830123295858646,
+        -0.09383128459646091,
+        0.1355365689621132
+      ],
+      "local_angular_velocity": [
+        -0.015743456523368525,
+        0.2293391870328211,
+        0.09425997911781372
+      ]
+    },
+    {
+      "frame_id": 4,
+      "rgb_index": 163,
+      "timestamp": 1305031458.227611,
+      "rgb": "rgb/1305031458.227611.png",
+      "depth": "depth/1305031458.245729.png",
+      "depth_timestamp": 1305031458.245729,
+      "rgb_depth_dt": 0.018117904663085938,
+      "native_valid_fraction": 0.7583912037037037,
+      "controlled_valid_fraction": 0.15104166666666666,
+      "local_linear_velocity": [
+        -0.6434031495116057,
+        -0.10378839430676601,
+        0.21427458969716057
+      ],
+      "local_angular_velocity": [
+        -0.06156827493394957,
+        -0.07395921037022968,
+        -0.024720498510337145
+      ]
+    },
+    {
+      "frame_id": 5,
+      "rgb_index": 166,
+      "timestamp": 1305031458.327628,
+      "rgb": "rgb/1305031458.327628.png",
+      "depth": "depth/1305031458.343898.png",
+      "depth_timestamp": 1305031458.343898,
+      "rgb_depth_dt": 0.016270160675048828,
+      "native_valid_fraction": 0.7614293981481481,
+      "controlled_valid_fraction": 0.1193576388888889,
+      "local_linear_velocity": [
+        -0.6070726482546371,
+        -0.06167119342724415,
+        0.282713342619089
+      ],
+      "local_angular_velocity": [
+        0.32601956260594134,
+        -0.1980885274883382,
+        0.1777875927016423
+      ]
+    },
+    {
+      "frame_id": 6,
+      "rgb_index": 169,
+      "timestamp": 1305031458.427598,
+      "rgb": "rgb/1305031458.427598.png",
+      "depth": "depth/1305031458.443957.png",
+      "depth_timestamp": 1305031458.443957,
+      "rgb_depth_dt": 0.01635909080505371,
+      "native_valid_fraction": 0.7432002314814815,
+      "controlled_valid_fraction": 0.12861689814814814,
+      "local_linear_velocity": [
+        -0.46214483817290253,
+        0.09924220137269786,
+        0.39636870139154107
+      ],
+      "local_angular_velocity": [
+        0.7906005548323398,
+        0.27529209295124885,
+        0.46097671431615483
+      ]
+    },
+    {
+      "frame_id": 7,
+      "rgb_index": 172,
+      "timestamp": 1305031458.527737,
+      "rgb": "rgb/1305031458.527737.png",
+      "depth": "depth/1305031458.544401.png",
+      "depth_timestamp": 1305031458.544401,
+      "rgb_depth_dt": 0.01666402816772461,
+      "native_valid_fraction": 0.7261284722222222,
+      "controlled_valid_fraction": 0.1037326388888889,
+      "local_linear_velocity": [
+        -0.3450431269340781,
+        0.30269766427337225,
+        0.45198034760616496
+      ],
+      "local_angular_velocity": [
+        0.842578764660625,
+        0.4477487583610379,
+        -0.07437545605310604
+      ]
+    },
+    {
+      "frame_id": 8,
+      "rgb_index": 175,
+      "timestamp": 1305031458.627659,
+      "rgb": "rgb/1305031458.627659.png",
+      "depth": "depth/1305031458.643659.png",
+      "depth_timestamp": 1305031458.643659,
+      "rgb_depth_dt": 0.016000032424926758,
+      "native_valid_fraction": 0.7186053240740741,
+      "controlled_valid_fraction": 0.10300925925925926,
+      "local_linear_velocity": [
+        -0.26064325863050347,
+        0.35414951842963316,
+        0.5232688931630037
+      ],
+      "local_angular_velocity": [
+        -0.0706813339989923,
+        -0.32157864106083933,
+        -0.20638700026035803
+      ]
+    },
+    {
+      "frame_id": 9,
+      "rgb_index": 178,
+      "timestamp": 1305031458.72765,
+      "rgb": "rgb/1305031458.727650.png",
+      "depth": "depth/1305031458.744924.png",
+      "depth_timestamp": 1305031458.744924,
+      "rgb_depth_dt": 0.017274141311645508,
+      "native_valid_fraction": 0.7346643518518519,
+      "controlled_valid_fraction": 0.1462673611111111,
+      "local_linear_velocity": [
+        -0.12967503958049745,
+        0.2643229648163877,
+        0.479677849066014
+      ],
+      "local_angular_velocity": [
+        0.06431985475300568,
+        -1.0348508865829158,
+        -0.4867432465739964
+      ]
+    },
+    {
+      "frame_id": 10,
+      "rgb_index": 181,
+      "timestamp": 1305031458.827564,
+      "rgb": "rgb/1305031458.827564.png",
+      "depth": "depth/1305031458.842919.png",
+      "depth_timestamp": 1305031458.842919,
+      "rgb_depth_dt": 0.015355110168457031,
+      "native_valid_fraction": 0.7236689814814815,
+      "controlled_valid_fraction": 0.19502314814814814,
+      "local_linear_velocity": [
+        -0.12805530465652643,
+        0.10566556890784531,
+        0.3586441118837319
+      ],
+      "local_angular_velocity": [
+        0.06343931861282269,
+        -0.312007180493092,
+        -0.2101961387392201
+      ]
+    },
+    {
+      "frame_id": 11,
+      "rgb_index": 184,
+      "timestamp": 1305031458.927621,
+      "rgb": "rgb/1305031458.927621.png",
+      "depth": "depth/1305031458.943997.png",
+      "depth_timestamp": 1305031458.943997,
+      "rgb_depth_dt": 0.016376018524169922,
+      "native_valid_fraction": 0.7239583333333334,
+      "controlled_valid_fraction": 0.20153356481481483,
+      "local_linear_velocity": [
+        -0.30993347940649063,
+        -0.04225818948077756,
+        0.22407706692395246
+      ],
+      "local_angular_velocity": [
+        -0.22301591793677994,
+        0.4721949163230888,
+        0.346803448276136
+      ]
+    },
+    {
+      "frame_id": 12,
+      "rgb_index": 187,
+      "timestamp": 1305031459.027665,
+      "rgb": "rgb/1305031459.027665.png",
+      "depth": "depth/1305031459.012560.png",
+      "depth_timestamp": 1305031459.01256,
+      "rgb_depth_dt": -0.015105009078979492,
+      "native_valid_fraction": 0.7210648148148148,
+      "controlled_valid_fraction": 0.13425925925925927,
+      "local_linear_velocity": [
+        -0.5417776456932185,
+        -0.13886589470232139,
+        0.18546094755284834
+      ],
+      "local_angular_velocity": [
+        0.4657630582393399,
+        -0.3480176047094043,
+        0.4092359128957435
+      ]
+    },
+    {
+      "frame_id": 13,
+      "rgb_index": 190,
+      "timestamp": 1305031459.127618,
+      "rgb": "rgb/1305031459.127618.png",
+      "depth": "depth/1305031459.112711.png",
+      "depth_timestamp": 1305031459.112711,
+      "rgb_depth_dt": -0.014907121658325195,
+      "native_valid_fraction": 0.7440682870370371,
+      "controlled_valid_fraction": 0.09606481481481481,
+      "local_linear_velocity": [
+        -0.6254617778302298,
+        -0.030857184178894742,
+        0.273572196021404
+      ],
+      "local_angular_velocity": [
+        0.3494679593498368,
+        -1.2262275274753989,
+        0.44966830058286733
+      ]
+    },
+    {
+      "frame_id": 14,
+      "rgb_index": 193,
+      "timestamp": 1305031459.227607,
+      "rgb": "rgb/1305031459.227607.png",
+      "depth": "depth/1305031459.244159.png",
+      "depth_timestamp": 1305031459.244159,
+      "rgb_depth_dt": 0.016551971435546875,
+      "native_valid_fraction": 0.7045717592592593,
+      "controlled_valid_fraction": 0.16782407407407407,
+      "local_linear_velocity": [
+        -0.4562077772476392,
+        0.151291970469044,
+        0.31419146391651365
+      ],
+      "local_angular_velocity": [
+        -0.041719188053407706,
+        0.006887802613279523,
+        0.7300842250856179
+      ]
+    }
+  ],
+  "train": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    12,
+    13
+  ],
+  "test": [
+    2,
+    5,
+    8,
+    11,
+    14
+  ],
+  "gaussians": 2400,
+  "voxel_size_m": 0.025,
+  "max_gaussians": 2400,
+  "sources": [
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb.txt",
+      "sha256": "d1bc510ecca08540e03be8df55af8857753b614d8a5c38526bc669ce6c802284"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth.txt",
+      "sha256": "e56f037046113192151abebded5513709d03a57b46624b8343eb4efd4419f14c"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/groundtruth.txt",
+      "sha256": "48c4fa61f5d78310ea579f404d31d296738c4210c19c2bdac4a5cdf6bff50831"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031457.827699.png",
+      "sha256": "cb39a0714ab9d426d31e150d5187ff446a836f872902891374fc0c5b421d9fef"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031457.842853.png",
+      "sha256": "273388c847c070bcdb304547526f01c761b578b1186623508c7fafb553d526ae"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031457.927633.png",
+      "sha256": "316c323b644c0b4b32a6cb1f0e397abf9b44431cc231561ecb6b044eaab4a48d"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031457.942604.png",
+      "sha256": "1fdc6eb697aedb562e2f28eefc243f9e2766eddac360c1dfb6d5d5b06276dd25"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.027845.png",
+      "sha256": "e7cb2b5cbe0625b201c8786317ac68105823dd061e921ed9f8266e5f79175fba"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.046303.png",
+      "sha256": "d91cbc03170a1a67481bf1de21a42539c34da6117dbda12b5e592584b0d21e68"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.127605.png",
+      "sha256": "92b51a7c5d5543489b20982499ee65ca2ceda23e1a87e61353356d9d5e31818d"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.144808.png",
+      "sha256": "3ba2a18670e1b1d5d49e82edcb02b14ad35902ad76c02839f500b412fd51693b"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.227611.png",
+      "sha256": "119e813c815ed89bfbf4d059972cce875e336a6a6a013a59d99a682b6cad2281"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.245729.png",
+      "sha256": "760f182e1b64c544bd17b210787a2fad6742d906e8e8e991dd2bc97807a25c6b"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.327628.png",
+      "sha256": "b2d81dc87223218f6df07118c2e1811976819a24413f19f77604ed58cb0607bb"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.343898.png",
+      "sha256": "2f3ca1c304c00c02f2ad5450f836181d74c6be6eb78269652525125ab2b18304"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.427598.png",
+      "sha256": "bf0058af5a7d1ade6c4a259789269b693ab470e9b93e840999d608b6dab2f048"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.443957.png",
+      "sha256": "ec6921eee8875a48e009497be3389dcc0d8817f28c664ad5a6ccb26784fb8555"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.527737.png",
+      "sha256": "60539a145d0e3f5f3a05338a40e47d238f71490c7adc0aed517bd8ae77d54ff8"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.544401.png",
+      "sha256": "480307c087019c22e7bd341c7540ad44ecd96804fac56da6eb3688e9679a901e"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.627659.png",
+      "sha256": "c56a0cdd003586a4045a120b31ad1725a6494e710499a82075b011d4b651cd6f"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.643659.png",
+      "sha256": "0b1f1510da5cd952974814fef31af806279f4e1ceb165784d73073f06061d8ac"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.727650.png",
+      "sha256": "d5989fb4ce99a7f99ae06468ac089844a813bff880668226c81a1f5ccde08b0a"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.744924.png",
+      "sha256": "f88da4d71647bdca079b13b5d71e489e596e037d0e6f4be1f6b562e372b0c483"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.827564.png",
+      "sha256": "39b543c98b6616ae73ef2f5dde94b0e8a8ffe8bf82fdb6b152035238b1e745ad"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.842919.png",
+      "sha256": "eca18d36668c1a8d81c889f149c5729ab48bcd5b35730533df9fa4d2fa015751"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031458.927621.png",
+      "sha256": "4044956679aaffee43088d9aa39123cc135d695cf05052fd4cd8279e3c923b0c"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031458.943997.png",
+      "sha256": "55a804e1270b8d24f7ca5baba775e2acd00c2dc2f40e28466fb3c6582afc18ab"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031459.027665.png",
+      "sha256": "7405aef7a56c2c2f708ca39876fd9d41e90d133bc007c29d28cea5c1b18ed65f"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031459.012560.png",
+      "sha256": "dce6fb4313ba4f543bf76030d6f04cd339b3526d0cbf683979eba8843331df41"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031459.127618.png",
+      "sha256": "089928d88470a7d1fee197a9bc6ad7286f8e79b3f02856c0068fea82bef83271"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031459.112711.png",
+      "sha256": "3e644f8e190722e24bdbb2f9b3c4f5d532bb8380850eef003380501814bc4fb7"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/rgb/1305031459.227607.png",
+      "sha256": "bb099d2e5ae2bb8440b5c64b57974f71e14df5041c4226f1abb092d56a15dd06"
+    },
+    {
+      "path": "rgbd_dataset_freiburg1_desk/depth/1305031459.244159.png",
+      "sha256": "df3f6abffdb2f2aa3d49a18176fdc860b017c0e16d69c56ffa8e119149c6f719"
+    }
+  ],
+  "calibration": "ROS default525/525/319.5/239.5; no undistortion, as recommended by TUM for pre-registered RGB-D",
+  "depth_divisor": 5000,
+  "additional_depth_scale": 1.0,
+  "depth_already_corrected": true,
+  "rgb_resize": "BOX via320x240",
+  "depth_resize": "NEAREST",
+  "pose": "interpolated mocap camera-to-world; linear position + quaternion SLERP",
+  "velocity_dt_seconds": 0.05,
+  "controlled_exposure_seconds": 0.08,
+  "controlled_samples": 32,
+  "controlled_renderer": "independent bilinear point reprojection with nearest-surface z-buffer",
+  "controlled_limit": "Existing native image blur is retained; this is additional controlled blur on real RGB-D, not sensor clean GT.",
+  "initialization": "Training depth only for geometry; colors from respective training observation track, never held-out frames",
+  "publication": "Original/processed RGB-D arrays are local ignored caches, not committed or uploaded.",
+  "initial_sigma": "max(0.8 pixel projected world scale, min(0.8 nearest selected-point spacing, 0.05m))"
+}

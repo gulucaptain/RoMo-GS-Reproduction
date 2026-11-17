@@ -1,0 +1,6 @@
+{
+  "run": "freiburg1_desk_native_midpoint_mps_seed1",
+  "strict_cpu_image_limit": 0.0002,
+  "observed_max_abs": 0.0004907548427581787,
+  "status": "Original CPU pixel gate failed; retained without widening. Source-device MPS replay and independent depth-order controls are recorded separately."
+}

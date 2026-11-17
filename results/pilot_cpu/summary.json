@@ -1,0 +1,92 @@
+[
+  {
+    "seed": 0,
+    "method": "static",
+    "steps": 240,
+    "seconds": 0.45636862504761666,
+    "sharp_heldout_psnr": 29.957677841186523,
+    "blur_heldout_psnr": 43.24420928955078,
+    "matched_mean_rmse": 0.05852016061544418,
+    "final_training_loss": 0.0037265296559780836
+  },
+  {
+    "seed": 0,
+    "method": "analytic",
+    "steps": 240,
+    "seconds": 0.8276744999457151,
+    "sharp_heldout_psnr": 43.86724853515625,
+    "blur_heldout_psnr": 49.1526985168457,
+    "matched_mean_rmse": 0.011923332698643208,
+    "final_training_loss": 0.001828167587518692
+  },
+  {
+    "seed": 0,
+    "method": "sampled",
+    "steps": 240,
+    "seconds": 2.719178833067417,
+    "sharp_heldout_psnr": 39.190372467041016,
+    "blur_heldout_psnr": 48.74635314941406,
+    "matched_mean_rmse": 0.025255952030420303,
+    "final_training_loss": 0.0019949492998421192
+  },
+  {
+    "seed": 1,
+    "method": "static",
+    "steps": 240,
+    "seconds": 0.44186012505088,
+    "sharp_heldout_psnr": 30.110414505004883,
+    "blur_heldout_psnr": 44.17365264892578,
+    "matched_mean_rmse": 0.03223995864391327,
+    "final_training_loss": 0.0033945117611438036
+  },
+  {
+    "seed": 1,
+    "method": "analytic",
+    "steps": 240,
+    "seconds": 0.8138535419711843,
+    "sharp_heldout_psnr": 43.06915283203125,
+    "blur_heldout_psnr": 49.10953903198242,
+    "matched_mean_rmse": 0.013432123698294163,
+    "final_training_loss": 0.001535974908620119
+  },
+  {
+    "seed": 1,
+    "method": "sampled",
+    "steps": 240,
+    "seconds": 2.7142652919283137,
+    "sharp_heldout_psnr": 38.96135711669922,
+    "blur_heldout_psnr": 48.78394317626953,
+    "matched_mean_rmse": 0.02263255976140499,
+    "final_training_loss": 0.0019643122795969248
+  },
+  {
+    "seed": 2,
+    "method": "static",
+    "steps": 240,
+    "seconds": 0.45608579192776233,
+    "sharp_heldout_psnr": 30.118005752563477,
+    "blur_heldout_psnr": 44.23807144165039,
+    "matched_mean_rmse": 0.03245943784713745,
+    "final_training_loss": 0.0033454091753810644
+  },
+  {
+    "seed": 2,
+    "method": "analytic",
+    "steps": 240,
+    "seconds": 0.843588332994841,
+    "sharp_heldout_psnr": 43.419525146484375,
+    "blur_heldout_psnr": 48.4171257019043,
+    "matched_mean_rmse": 0.014640631154179573,
+    "final_training_loss": 0.0017919567180797458
+  },
+  {
+    "seed": 2,
+    "method": "sampled",
+    "steps": 240,
+    "seconds": 2.791995874955319,
+    "sharp_heldout_psnr": 39.78483200073242,
+    "blur_heldout_psnr": 48.47560501098633,
+    "matched_mean_rmse": 0.023635171353816986,
+    "final_training_loss": 0.0019746068865060806
+  }
+]

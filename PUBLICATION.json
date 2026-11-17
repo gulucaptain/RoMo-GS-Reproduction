@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-17",
+  "research_directory": "romo_gs",
+  "research_commit": "7b2c83cf932966397ff325ecd0b89a11ff6d66f4",
+  "repository": "https://github.com/gulucaptain/RoMo-GS-Reproduction",
+  "scope": "Reviewed code and recorded results; external raw data, pretrained weights and environments are not distributed.",
+  "omitted_tracked_files": [
+    {
+      "path": "results/phase2/qualitative_real_rgbd.pdf",
+      "sha256": "611cdb495bc5da78360947181afd3bb3c5245602d9cfc0da8ad94bb29b00c03e",
+      "reason": "Montage includes original TUM RGB frames; regenerate locally after obtaining dataset."
+    },
+    {
+      "path": "results/phase2/qualitative_real_rgbd.png",
+      "sha256": "c19b730ae643507992824ae6c97334c04c1c7828e5e0b98978090c43bdeb212c",
+      "reason": "Montage includes original TUM RGB frames; regenerate locally after obtaining dataset."
+    }
+  ]
+}

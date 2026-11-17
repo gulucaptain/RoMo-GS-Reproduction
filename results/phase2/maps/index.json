@@ -1,0 +1,50 @@
+[
+  {
+    "run": "freiburg1_desk_controlled_analytic_mps_seed0",
+    "path": "results/phase2/maps/freiburg1_desk_controlled_analytic_mps_seed0.ply",
+    "points": 2400,
+    "scope": "Gaussian center point cloud with color/opacity/sigma; original full-precision arrays preserved separately"
+  },
+  {
+    "run": "freiburg1_desk_controlled_midpoint_mps_seed0",
+    "path": "results/phase2/maps/freiburg1_desk_controlled_midpoint_mps_seed0.ply",
+    "points": 2400,
+    "scope": "Gaussian center point cloud with color/opacity/sigma; original full-precision arrays preserved separately"
+  },
+  {
+    "run": "freiburg1_desk_native_analytic_mps_seed0",
+    "path": "results/phase2/maps/freiburg1_desk_native_analytic_mps_seed0.ply",
+    "points": 2400,
+    "scope": "Gaussian center point cloud with color/opacity/sigma; original full-precision arrays preserved separately"
+  },
+  {
+    "run": "freiburg1_desk_native_midpoint_mps_seed0",
+    "path": "results/phase2/maps/freiburg1_desk_native_midpoint_mps_seed0.ply",
+    "points": 2400,
+    "scope": "Gaussian center point cloud with color/opacity/sigma; original full-precision arrays preserved separately"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_analytic_mps_seed0",
+    "path": "results/phase2/maps/freiburg1_xyz_controlled_analytic_mps_seed0.ply",
+    "points": 2400,
+    "scope": "Gaussian center point cloud with color/opacity/sigma; original full-precision arrays preserved separately"
+  },
+  {
+    "run": "freiburg1_xyz_controlled_midpoint_mps_seed0",
+    "path": "results/phase2/maps/freiburg1_xyz_controlled_midpoint_mps_seed0.ply",
+    "points": 2400,
+    "scope": "Gaussian center point cloud with color/opacity/sigma; original full-precision arrays preserved separately"
+  },
+  {
+    "run": "freiburg1_xyz_native_analytic_mps_seed0",
+    "path": "results/phase2/maps/freiburg1_xyz_native_analytic_mps_seed0.ply",
+    "points": 2400,
+    "scope": "Gaussian center point cloud with color/opacity/sigma; original full-precision arrays preserved separately"
+  },
+  {
+    "run": "freiburg1_xyz_native_midpoint_mps_seed0",
+    "path": "results/phase2/maps/freiburg1_xyz_native_midpoint_mps_seed0.ply",
+    "points": 2400,
+    "scope": "Gaussian center point cloud with color/opacity/sigma; original full-precision arrays preserved separately"
+  }
+]

@@ -1,0 +1,20 @@
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "dense", "--method", "analytic"], "log": "results/phase2/profile_logs/cpu_dense_analytic.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "dense", "--method", "midpoint"], "log": "results/phase2/profile_logs/cpu_dense_midpoint.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "tiled", "--method", "analytic"], "log": "results/phase2/profile_logs/cpu_tiled_analytic.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "tiled", "--method", "midpoint"], "log": "results/phase2/profile_logs/cpu_tiled_midpoint.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "checkpoint", "--method", "analytic"], "log": "results/phase2/profile_logs/cpu_checkpoint_analytic.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "checkpoint", "--method", "midpoint"], "log": "results/phase2/profile_logs/cpu_checkpoint_midpoint.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "dense", "--method", "analytic"], "log": "results/phase2/profile_logs/mps_dense_analytic.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "dense", "--method", "midpoint"], "log": "results/phase2/profile_logs/mps_dense_midpoint.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "tiled", "--method", "analytic"], "log": "results/phase2/profile_logs/mps_tiled_analytic.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "tiled", "--method", "midpoint"], "log": "results/phase2/profile_logs/mps_tiled_midpoint.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "checkpoint", "--method", "analytic"], "log": "results/phase2/profile_logs/mps_checkpoint_analytic.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "checkpoint", "--method", "midpoint"], "log": "results/phase2/profile_logs/mps_checkpoint_midpoint.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "checkpoint", "--method", "analytic", "--tile", "16"], "log": "results/phase2/profile_logs/cpu_checkpoint_analytic_tile16.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "checkpoint", "--method", "midpoint", "--tile", "16"], "log": "results/phase2/profile_logs/cpu_checkpoint_midpoint_tile16.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "checkpoint", "--method", "analytic", "--tile", "48"], "log": "results/phase2/profile_logs/cpu_checkpoint_analytic_tile48.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "cpu", "--backend", "checkpoint", "--method", "midpoint", "--tile", "48"], "log": "results/phase2/profile_logs/cpu_checkpoint_midpoint_tile48.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "checkpoint", "--method", "analytic", "--tile", "16"], "log": "results/phase2/profile_logs/mps_checkpoint_analytic_tile16.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "checkpoint", "--method", "midpoint", "--tile", "16"], "log": "results/phase2/profile_logs/mps_checkpoint_midpoint_tile16.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "checkpoint", "--method", "analytic", "--tile", "48"], "log": "results/phase2/profile_logs/mps_checkpoint_analytic_tile48.log", "returncode": 0}
+{"command": ["scripts/profile_tiled.py", "--device", "mps", "--backend", "checkpoint", "--method", "midpoint", "--tile", "48"], "log": "results/phase2/profile_logs/mps_checkpoint_midpoint_tile48.log", "returncode": 0}

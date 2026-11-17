@@ -1,0 +1,152 @@
+{
+  "renderer": [
+    {
+      "sequence": "freiburg1_xyz",
+      "method": "analytic",
+      "gaussians": 384,
+      "variants": {
+        "exact": {
+          "image_max_absolute_error": 3.552713678800501e-15,
+          "gradient_max_absolute_error": 3.3306690738754696e-16,
+          "gradient_relative_l2": 7.955639501559048e-16
+        },
+        "culled": {
+          "image_max_absolute_error": 1.6711461907001346e-07,
+          "gradient_max_absolute_error": 2.0528694757993016e-08,
+          "gradient_relative_l2": 1.9023668638474346e-08
+        }
+      }
+    },
+    {
+      "sequence": "freiburg1_xyz",
+      "method": "midpoint",
+      "gaussians": 384,
+      "variants": {
+        "exact": {
+          "image_max_absolute_error": 1.7763568394002505e-15,
+          "gradient_max_absolute_error": 5.828670879282072e-16,
+          "gradient_relative_l2": 1.2101063852701453e-15
+        },
+        "culled": {
+          "image_max_absolute_error": 1.6765899965576203e-07,
+          "gradient_max_absolute_error": 2.3567631582399606e-08,
+          "gradient_relative_l2": 2.067021833412812e-08
+        }
+      }
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "method": "analytic",
+      "gaussians": 384,
+      "variants": {
+        "exact": {
+          "image_max_absolute_error": 4.440892098500626e-15,
+          "gradient_max_absolute_error": 4.440892098500626e-16,
+          "gradient_relative_l2": 1.1431159612434294e-15
+        },
+        "culled": {
+          "image_max_absolute_error": 5.504612565261245e-08,
+          "gradient_max_absolute_error": 3.464667943938897e-08,
+          "gradient_relative_l2": 3.646332942907985e-08
+        }
+      }
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "method": "midpoint",
+      "gaussians": 384,
+      "variants": {
+        "exact": {
+          "image_max_absolute_error": 1.3322676295501878e-15,
+          "gradient_max_absolute_error": 3.608224830031759e-16,
+          "gradient_relative_l2": 1.1670061845765433e-15
+        },
+        "culled": {
+          "image_max_absolute_error": 5.3541150703208425e-08,
+          "gradient_max_absolute_error": 5.7194132013160594e-08,
+          "gradient_relative_l2": 5.570888541446814e-08
+        }
+      }
+    }
+  ],
+  "labels": [
+    {
+      "sequence": "freiburg1_xyz",
+      "view": 0,
+      "identity_max_error": 0.0,
+      "cached32_replay_max_error": 0.0,
+      "16_vs64_mae": 2.334288728889078e-05,
+      "16_vs64_psnr": 87.04650115966797,
+      "16_vs64_max_abs": 0.0004006028175354004,
+      "32_vs64_mae": 5.850179604749428e-06,
+      "32_vs64_psnr": 99.21073150634766,
+      "32_vs64_max_abs": 9.578093886375427e-05
+    },
+    {
+      "sequence": "freiburg1_xyz",
+      "view": 2,
+      "identity_max_error": 0.0,
+      "cached32_replay_max_error": 0.0,
+      "16_vs64_mae": 6.879537249915302e-05,
+      "16_vs64_psnr": 78.54875183105469,
+      "16_vs64_max_abs": 0.0009334683418273926,
+      "32_vs64_mae": 1.8328510122955777e-05,
+      "32_vs64_psnr": 89.05933380126953,
+      "32_vs64_max_abs": 0.0007430315017700195
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "view": 0,
+      "identity_max_error": 0.0,
+      "cached32_replay_max_error": 0.0,
+      "16_vs64_mae": 0.00012610183330252767,
+      "16_vs64_psnr": 73.8346939086914,
+      "16_vs64_max_abs": 0.001456916332244873,
+      "32_vs64_mae": 2.758690061455127e-05,
+      "32_vs64_psnr": 86.902587890625,
+      "32_vs64_max_abs": 0.00036448240280151367
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "view": 2,
+      "identity_max_error": 0.0,
+      "cached32_replay_max_error": 0.0,
+      "16_vs64_mae": 9.185344242723659e-05,
+      "16_vs64_psnr": 76.37411499023438,
+      "16_vs64_max_abs": 0.0012021064758300781,
+      "32_vs64_mae": 2.016696089413017e-05,
+      "32_vs64_psnr": 89.47457122802734,
+      "32_vs64_max_abs": 0.00022608041763305664
+    }
+  ],
+  "sources": [
+    {
+      "sequence": "freiburg1_xyz",
+      "prepared_hash_verified": true,
+      "train_test_disjoint": true,
+      "fusion_contains_no_test_frames": true,
+      "native_valid_fraction_range": [
+        0.7291666666666666,
+        0.7978877314814815
+      ],
+      "controlled_valid_fraction_range": [
+        0.21585648148148148,
+        0.39207175925925924
+      ]
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "prepared_hash_verified": true,
+      "train_test_disjoint": true,
+      "fusion_contains_no_test_frames": true,
+      "native_valid_fraction_range": [
+        0.7045717592592593,
+        0.7787905092592593
+      ],
+      "controlled_valid_fraction_range": [
+        0.09606481481481481,
+        0.20992476851851852
+      ]
+    }
+  ]
+}

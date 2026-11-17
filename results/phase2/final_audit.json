@@ -1,0 +1,304 @@
+{
+  "runs": 28,
+  "steps_per_run": 150,
+  "source_hashes_verified": {
+    "romo_gs/tiled.py": "4044b6f1416991b08eab0332b85f0b14c7cfb09b299365300bf4a8c6a77258a6",
+    "romo_gs/measurement.py": "55b5173e2ab08aac412ab14ebc9e00a393f5a56612d6683ceae143ff84dcf3c7",
+    "scripts/rgbd_experiment.py": "eb8b6af43debc1a627ebbc2a1e95ed609c4348fbb633dc4b3daad5e6e281834e",
+    "scripts/prepare_rgbd.py": "37f5009cc4fbda3f84ee1d3c132d9a9ad17864e9b693d1970b3445ca5263f143",
+    "scripts/run_phase2.py": "34c7c8c4d04632938c073430f8704d3af344d4be197de8436feb05df306c23f3",
+    "scripts/profile_tiled.py": "86473349fbfdfc861326405484ce76057d20b706e982d11114e00ff7672fcb02"
+  },
+  "all_configurations_match": true,
+  "all_parameters_finite": true,
+  "all_checkpoints_replayed": true,
+  "strict_cpu_image_exceptions": [
+    "freiburg1_desk_native_midpoint_mps_seed1",
+    "freiburg1_xyz_controlled_midpoint_mps_seed0",
+    "freiburg1_xyz_native_analytic_mps_seed1",
+    "freiburg1_xyz_native_midpoint_mps_seed2"
+  ],
+  "all_exception_depth_order_controls_verified": true,
+  "provenance": [
+    {
+      "run": "freiburg1_desk_controlled_analytic_cpu_seed0",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "ba8f21ad1a30a5968b042db403d542707448b2176f337084f33d170fcfc7220a",
+        "summary.json": "7b5c33701cf71859b87d349fd5e8a8394c48e3f6f71e47b3a2e3a49cffc21596",
+        "trace.json": "f74da94c007d9a2600c6cd4edec3ed7119d267afff1be042054faea160aa7db5",
+        "parameters.npz": "2d01a0c93d7350ca691ae6a7956fb69bd8cae3e4c08f6abad48d9accf55dbcc2"
+      }
+    },
+    {
+      "run": "freiburg1_desk_controlled_analytic_mps_seed0",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "601728e7c5dbb6ca87a3252fa21cbbd8c123bfa9fbcf6788f9dace2fe1c1f5b1",
+        "summary.json": "90c1ee9f1c91e86cbdee7eb88b6d09da76ff0162d98697c3f2eb34d5ddea4239",
+        "trace.json": "fb1295d8844ea06dedea608359b70e17d42e5ebc10af29349e872535399f547f",
+        "parameters.npz": "a0f59bccedb1928f7b8de3fcaa60df2985ec7417e9f73faf04fea0e3c32db421"
+      }
+    },
+    {
+      "run": "freiburg1_desk_controlled_analytic_mps_seed1",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "58abee734b7187460f3d337daee8c38519472070c6d848788969681274cbe9bb",
+        "summary.json": "8d43460d1c6af423bb5d3ca207d0781f233ecfe9faf001b591c3bd606ac62b9c",
+        "trace.json": "3da9d089c65f11959baed12bbf1eb5c0a71d7acf66af106e5319d75d57687e05",
+        "parameters.npz": "d8b106ec93da7590c8e9ea6fdea01d9d11b2f96f8de286d7aa2283ac07edd8f4"
+      }
+    },
+    {
+      "run": "freiburg1_desk_controlled_analytic_mps_seed2",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "914b9409f91820c29605c0f9488b94f4da3d0f98522bcd26d56f046d6c194e3a",
+        "summary.json": "c06457d152098d961102dd46f8d6eb96a22d4e777c8f79aea3e4b35e600a9f5b",
+        "trace.json": "c8e83c84cdab2e174dfe9089dd8c11e861b95d43243e2386c3483fb6b531b00b",
+        "parameters.npz": "f32f0ed921d21126c4449e85dbc4c7cf53379e1e6b84200847128d3ee6d60de4"
+      }
+    },
+    {
+      "run": "freiburg1_desk_controlled_midpoint_cpu_seed0",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "c18c05894fbd3414f5d734c7c3264e51e13d0b68a2c1a729938cfab6c064b84b",
+        "summary.json": "f1899fae879eb3b007c25b88afbfbe1238882320b0252ab46effd9856b20bf25",
+        "trace.json": "b22453f3349e3de00c4509bbb8d96e381d2d083e4d06b15a310ed1472bc78a99",
+        "parameters.npz": "74978caf697dcd19fd3627ef9da884e318ea53b9d72dc9bbc934a3a239f4110d"
+      }
+    },
+    {
+      "run": "freiburg1_desk_controlled_midpoint_mps_seed0",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "6153b89fa393219cd6b8ec6d51473969627f6b354880786d4b9a37a72f33f44f",
+        "summary.json": "bfa78eb5a9e9663fb0bb6888b4d9fcf31723b088479e854f8d0f11adfba06ec9",
+        "trace.json": "5f7bf7e29fb6eccf5f4978353f1e8d6019c8e7195c06b9f1252f4f9413503b08",
+        "parameters.npz": "4c91a99d3b77e9a81893bd9ad3500dc4aca24081a1e12b74d7678849a5f1283c"
+      }
+    },
+    {
+      "run": "freiburg1_desk_controlled_midpoint_mps_seed1",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "0e5d5d8330a6a543fec5eec7e99fec44107e1e2e03a997237af06f3f15fa5f55",
+        "summary.json": "41c25e9105c0ab88916ac1f8859fc9ca4ccc7af709747d35f23a7f81a0eececb",
+        "trace.json": "64cddbad4aa02b4938cd823e171fbfc11971d6637287579efd190b2a835470b3",
+        "parameters.npz": "9a0e982f3d49547f4326167037b50db9e90b1f5775ae60afb9b16637cfa42341"
+      }
+    },
+    {
+      "run": "freiburg1_desk_controlled_midpoint_mps_seed2",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "fb0fbd003727fc9bcbc60b6cba2a86952e66bc6110119dd32ae0cf07812a77b3",
+        "summary.json": "8e6c567f851b8a5f37ca45027d9abfcfe781d685f83abe7cc61a5cd18a193611",
+        "trace.json": "afe0e3d31fb37b0d5be7127c48708380a0620a732537d1ff77842581e7f986b1",
+        "parameters.npz": "07e7a4714277d0091b5136f1a7a10ed4ec0489a19515ea3ef1874c7fbb6ae65d"
+      }
+    },
+    {
+      "run": "freiburg1_desk_native_analytic_mps_seed0",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "1ce000cb212c26f249612987c9ac7c2d3907cb6fc7adbb5b74f33e74e0676972",
+        "summary.json": "13a25c7f4a9973f5a5ca42362894735a3a797631b95c4b528de2a3fee07ccda3",
+        "trace.json": "83111e7cf90ae9f15c28b13b542890f5491483f8d7bf4d8a71963dff8b11d140",
+        "parameters.npz": "2660d200105755456359c61046ce02e5e20253d98ce042f4744ca787092887a4"
+      }
+    },
+    {
+      "run": "freiburg1_desk_native_analytic_mps_seed1",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "9708fe04d207c07a186891e5e1570eb67882eeaf7ac5c261c2e713992665e6f6",
+        "summary.json": "88a1ab92f89b06132d9a8604b7908f36c04bab44bb2cfe5cc0fe6898a463bdde",
+        "trace.json": "67e1c7d192ff4e743e62bf5bfba75ce59339c88386e0444b209200dabcc0b5ea",
+        "parameters.npz": "479f2d93a06ed3372c6bd60c9a9b73eb5c0901a3ca9d948b7d9e31cba5d93c4b"
+      }
+    },
+    {
+      "run": "freiburg1_desk_native_analytic_mps_seed2",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "6305078ba258a49d637266fb4bd28fad0d3c71e44151a3762e094513f20381be",
+        "summary.json": "436820e55e45b5be7d0a6f2fc2c8986faf32ad6d63fb2c2aa1d8015808f2be21",
+        "trace.json": "bac446adb63d0d28f565b15487bbb42b3efe7e748be60ac1f62cb507d053c0c9",
+        "parameters.npz": "f36663f3eb0f590dfd317038786f7cd6b7bdbe67a2b559f7401a4f0a186ccfe6"
+      }
+    },
+    {
+      "run": "freiburg1_desk_native_midpoint_mps_seed0",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "f8c6e05910549d4a498c3eba1c98c44e387a8e77ae9408671c4a295386bcc4bd",
+        "summary.json": "fc90a19cee2f626a068b7908a5a1da2f5ac3a95257a2068d9a8b2ac05b9acdbb",
+        "trace.json": "c2c08f3050e05b39d2a29e64217c51e906efcd6a22a1b4b2255d483188959174",
+        "parameters.npz": "7e1a287616d219f5307100dbf90cb7e0aa9885dd66d02787cc3743c0cac16484"
+      }
+    },
+    {
+      "run": "freiburg1_desk_native_midpoint_mps_seed1",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "8c4c1632f6d07a461c417ce35facb2d58bb175e6f909939db644a65e2204c35f",
+        "summary.json": "473840443a62d4597a02af86f2b915a5fc3884e3f73db74c09644b0137e17ece",
+        "trace.json": "5b4284e4946538395ecc5dd985f5228a738761f0884f143bc01161a9cdff8e82",
+        "parameters.npz": "e740ab3e10e2a04b8c8d370f4f34dbc6fccf1ba45e6739070059f31de37aab83"
+      }
+    },
+    {
+      "run": "freiburg1_desk_native_midpoint_mps_seed2",
+      "prepared_data_sha256": "fd1fde61298650f1f4894360bb8b9815f98ca59fa2ceb9545292e63efb6835da",
+      "files": {
+        "config.json": "b271647a14dd84121af1561f215dbf1e7c0fa035cb6af49c38b95e9906c9613e",
+        "summary.json": "46007067c599bda94d2ff4a958d53a3533203badf943725e147b70cafc26e895",
+        "trace.json": "f9e002f7f45fb6e598c788875d2263738cfbdbbc4212a871370ec8a546ccd479",
+        "parameters.npz": "4213c16f33fc86ab93d4647401470449a46750db7dd35ade75aff57c5145415e"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_controlled_analytic_cpu_seed0",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "1b42e3a8506c8755d713756e85b794fb5d0e72ba3220338d4360acece88b1b7c",
+        "summary.json": "0e230d3a4a0f58fcdbc83729fba62715e43f99b5615014c1cc9d1653f92711d5",
+        "trace.json": "ea2a6031ea54f5414314318799bf89044ab8f433a242a60463d3ba009aa42ef1",
+        "parameters.npz": "08c5788d7dd1bab80f12585f070ddc72e72e2ac38b43c1963cfe1d12b2aa367e"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_controlled_analytic_mps_seed0",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "1eeb022e1e56169b2aacacf45866ef6a033a848a806287a25fb6512ab4fbef8d",
+        "summary.json": "4a90e9de88e088487606764eaf016a7c716986f2d947ea6bdfa61bb3a72df202",
+        "trace.json": "8f4f4b74387267de32baa4eb20f33543ff5cdee489497450ee5abf7672a32fec",
+        "parameters.npz": "7448510cb57a2782c2959d16ac4a5d0aea1637637096f24a4dce966f6f75e0a2"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_controlled_analytic_mps_seed1",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "f5c451bb8db1c112746ca9e0dfef2751de69ced5fd1bfcc860d1a733ebea0644",
+        "summary.json": "e1208ba12d7d908d48496382b46cc9648f086fb0a1dcf64d83c9a7e6b853050a",
+        "trace.json": "3bd56b063a1c02ef26a474f231d7063357355c829e5d1119bede7bcd8dc6ccd3",
+        "parameters.npz": "66c8acc670b53cba329466de861d2ae0211e3d5023992f9c1f1f320e708af957"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_controlled_analytic_mps_seed2",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "77bf138668c556567a285442b229e91c1abc4cd441816463725533a4265336df",
+        "summary.json": "50202bad7dc3f0519a5ab5963dfd17912e611603f16507355537278384e39616",
+        "trace.json": "e42fa2fe3f8b266231c948c200ad2b84fa752d9482d33862dd33b7cec6cc79f0",
+        "parameters.npz": "2e42a8de8c4eca6e997cd2fbe8ffeced4113d0e3a90afc9dad7a06355e47c1ba"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_controlled_midpoint_cpu_seed0",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "12910c5b25633679f1f6536d2beacb980c242dbdd9a0508618f2342d30181c4c",
+        "summary.json": "9b25df8854405f24135f3e18e918a7864376c5112f8f28eec6e408d27d41108c",
+        "trace.json": "a5f1329b49f6fb899b7412f13d1525cda87c04e66d331d2e16b335c36f6fba45",
+        "parameters.npz": "d088416d0412eb904637e84082690bce7c2ad751da4f8b4f56a1de210f8b73b2"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_controlled_midpoint_mps_seed0",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "9d66d901839e205d9bc6f99455881872f60805233555d2ca4c33050bfcfdd0f5",
+        "summary.json": "e9fb34bd428ccce0813e137c2b1ff5085c2d78d0fcf2d81e1704081713d4379d",
+        "trace.json": "566120e8d65cfabca8aefa6678c215ec222169178e2c3665243bf3c885a8f18d",
+        "parameters.npz": "11a718d88071ee32aa98c96ca54b02a2ddcd5812dc990eda55e2a11fabf7149e"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_controlled_midpoint_mps_seed1",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "85b2fb4a957ec2cc700eff14f18cd16c1dbdd77f4283a445d37e915f34f410c1",
+        "summary.json": "59a1a3072e44fd771b674e8368a7f180823e9ca1a13df0e126608f22ebccb0d8",
+        "trace.json": "c5618e43ff2b6552d208992b31e6a7c10efbbd35b01f3cad860ca68130bd7dee",
+        "parameters.npz": "c6b1a9c8baeee651f946c7d2e23a2a0d1941d019b6bf1c190f09874cdd271f07"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_controlled_midpoint_mps_seed2",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "75182226ea65b39252a419effc608b4b0ea755b30403ca72df5b6a0b957e7af3",
+        "summary.json": "6a9c5fff9e3abb9346f76842ca7996ebbe6c070935db4193239eef79d23caf3f",
+        "trace.json": "4fe946a38741fcae4401dfa2ac88e1767ee92f85c2252339eb0f0df94f0e8520",
+        "parameters.npz": "7b2c4e1a0f4199fed8219de3952712630c05c25a6418e45dbd399e4b8f80204f"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_native_analytic_mps_seed0",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "1e11a32488482130b09afaae6b2e403217433876c8d3829079bf7c982f16d963",
+        "summary.json": "5d4816a14fa8b809564c6ddb01bcf660dacc4ea7c5d8c880a928bcb513e2ead1",
+        "trace.json": "b69b0f5e2e9970e503206d28582411597b809faa2ce6617011ee76741c041b4c",
+        "parameters.npz": "6740011a506cd66a4a2118ad20376c68603f7ac829c62e295e03da0d1ac0e2d7"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_native_analytic_mps_seed1",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "7379ba9eefa55d68a15970b9b5dc68d533efd0dbc18c80e7d843fafe82a1558c",
+        "summary.json": "08f2768d011de6707cf6bf03ff7bc29cf3a42209b7909acf745168047abae468",
+        "trace.json": "4b9d85058affcef86465694828404398a4a911e4a7b5a13d19a3b2edfa90cedc",
+        "parameters.npz": "275a2c468bde0db88f90262f3193943c5233c73274b886a25e0dfe127da28bcc"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_native_analytic_mps_seed2",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "4dad067382e5765d3f423da96635bb15d2f1acd62f161ad2c23b053a56150967",
+        "summary.json": "71e0f9855b74c11d61cdf4a35954b78db1cac4436545fc6b2771f4c09837887c",
+        "trace.json": "69962cca82d562e92e5148d8d91d43bcb03cf232a00ba3435c1e8aa039c511a1",
+        "parameters.npz": "c7c79c010aa7f3bca12ced0fbd5ce0399b92424e9985848e393a3206ddf4f0c5"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_native_midpoint_mps_seed0",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "1d4098c2da7220ae8c17d1fb8b12eac24d298f9529ea24546edd75c42a0a8cdd",
+        "summary.json": "dbdd30835d0d7064c05da02a3a9717772ae95734a6e782cd110b59d2695a3f59",
+        "trace.json": "6a8ba81f8a6d5dc5f13d6e0e87eb1dd7c2e92c66f1cbdb4dc768a1779589ff98",
+        "parameters.npz": "0f63b75326e0c8eeca94b65f6012a5af78875ff621a642c21c51c047c3fb0182"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_native_midpoint_mps_seed1",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "2006996492de00c5201430b3ef0a9ec5f64853ae2f66e34b66cf61135c0282be",
+        "summary.json": "e802018258faf7e48be4d27f790ec0b2054c105fae2d6f1d21e07151567f5930",
+        "trace.json": "84289cc96074b085353b47f88ec7bf7baa136b2781db6323c85057bea1106aaf",
+        "parameters.npz": "54cc35fef6a25ece0c83f959520a59e41cae5a3d61d0829ec449bf342c7531bc"
+      }
+    },
+    {
+      "run": "freiburg1_xyz_native_midpoint_mps_seed2",
+      "prepared_data_sha256": "69d95d7262898c3b6fb55977c88cd99b4ec5f2676378ed43599810d03e2657b0",
+      "files": {
+        "config.json": "dd7a1f191f734e300c71ce11795b276145461bf9e48e4a81253205eea45c2040",
+        "summary.json": "c53616c37b2c814436dda281f1fb47987be4b343130cb935fa37569754587297",
+        "trace.json": "ec845fee3a109008dcd00bbd91f4b6427e57a4ab1d6f319ae77e4201540a8033",
+        "parameters.npz": "4c5260aafd2425b40805f7641f9ff82f4f1f2c393f236b65239246a9d7b9e5b6"
+      }
+    }
+  ]
+}

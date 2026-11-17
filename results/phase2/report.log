@@ -1,0 +1,247 @@
+{
+  "runs": 28,
+  "groups": [
+    {
+      "sequence": "freiburg1_xyz",
+      "track": "native",
+      "method": "analytic",
+      "device": "mps",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "reference_psnr_mean": 22.706465881730683,
+      "reference_psnr_sd": 0.0026215698008246763,
+      "reference_ssim_mean_mean": 0.8998156388600668,
+      "reference_ssim_mean_sd": 0.0001400028694188068,
+      "depth_rmse_m_mean": 0.1794485361077879,
+      "depth_rmse_m_sd": 9.661480427506223e-05,
+      "alpha90_coverage_mean": 0.8480155070622762,
+      "alpha90_coverage_sd": 0.001583847842982331,
+      "full_native_valid_center_psnr_mean": 22.69470511012032,
+      "full_native_valid_center_psnr_sd": 0.0026280618206761235,
+      "observation_psnr_mean": 22.706465881730683,
+      "observation_psnr_sd": 0.0026215698008246763
+    },
+    {
+      "sequence": "freiburg1_xyz",
+      "track": "native",
+      "method": "midpoint",
+      "device": "mps",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "reference_psnr_mean": 22.693265357576973,
+      "reference_psnr_sd": 0.001951639767305548,
+      "reference_ssim_mean_mean": 0.8994487524032593,
+      "reference_ssim_mean_sd": 0.00013573891949077385,
+      "depth_rmse_m_mean": 0.17941334864165268,
+      "depth_rmse_m_sd": 0.0001017364164965772,
+      "alpha90_coverage_mean": 0.847510306040446,
+      "alpha90_coverage_sd": 0.002006714652932475,
+      "full_native_valid_center_psnr_mean": 22.69458485257211,
+      "full_native_valid_center_psnr_sd": 0.0018971959581656095,
+      "observation_psnr_mean": 22.693265357576973,
+      "observation_psnr_sd": 0.001951639767305548
+    },
+    {
+      "sequence": "freiburg1_xyz",
+      "track": "controlled",
+      "method": "analytic",
+      "device": "mps",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "reference_psnr_mean": 25.38892121727522,
+      "reference_psnr_sd": 0.020554989137549346,
+      "reference_ssim_mean_mean": 0.8253770709037781,
+      "reference_ssim_mean_sd": 0.00010601557384674,
+      "depth_rmse_m_mean": 0.05145393640311375,
+      "depth_rmse_m_sd": 0.0001252100364096754,
+      "alpha90_coverage_mean": 0.8883749206860859,
+      "alpha90_coverage_sd": 0.0006356415162786768,
+      "full_native_valid_center_psnr_mean": 15.545325786630919,
+      "full_native_valid_center_psnr_sd": 0.006849660759499634,
+      "observation_psnr_mean": 26.918098486585535,
+      "observation_psnr_sd": 0.01777293481168259
+    },
+    {
+      "sequence": "freiburg1_xyz",
+      "track": "controlled",
+      "method": "midpoint",
+      "device": "mps",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "reference_psnr_mean": 25.443426410334244,
+      "reference_psnr_sd": 0.01784251473111705,
+      "reference_ssim_mean_mean": 0.8277828534444174,
+      "reference_ssim_mean_sd": 0.0005018940711846964,
+      "depth_rmse_m_mean": 0.05216695651594901,
+      "depth_rmse_m_sd": 0.000191304149236926,
+      "alpha90_coverage_mean": 0.8771128137906392,
+      "alpha90_coverage_sd": 0.00040993752756509396,
+      "full_native_valid_center_psnr_mean": 15.57670234799425,
+      "full_native_valid_center_psnr_sd": 0.010168339958363321,
+      "observation_psnr_mean": 26.816274444574486,
+      "observation_psnr_sd": 0.021679386105309645
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "track": "native",
+      "method": "analytic",
+      "device": "mps",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "reference_psnr_mean": 19.712178572243023,
+      "reference_psnr_sd": 0.004277794727987864,
+      "reference_ssim_mean_mean": 0.8339527328809102,
+      "reference_ssim_mean_sd": 9.697081423184238e-05,
+      "depth_rmse_m_mean": 0.2523133225888721,
+      "depth_rmse_m_sd": 7.355045592043077e-05,
+      "alpha90_coverage_mean": 0.7455239295959473,
+      "alpha90_coverage_sd": 0.0004760641784196196,
+      "full_native_valid_center_psnr_mean": 19.706309344049107,
+      "full_native_valid_center_psnr_sd": 0.004391888569988004,
+      "observation_psnr_mean": 19.712178572243023,
+      "observation_psnr_sd": 0.004277794727987864
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "track": "native",
+      "method": "midpoint",
+      "device": "mps",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "reference_psnr_mean": 19.710249451735706,
+      "reference_psnr_sd": 0.002327893640692864,
+      "reference_ssim_mean_mean": 0.8335330843925476,
+      "reference_ssim_mean_sd": 6.937026911987845e-05,
+      "depth_rmse_m_mean": 0.2522651789527069,
+      "depth_rmse_m_sd": 0.00010941545725070893,
+      "alpha90_coverage_mean": 0.7446429689725239,
+      "alpha90_coverage_sd": 0.000446753467756598,
+      "full_native_valid_center_psnr_mean": 19.703235095777554,
+      "full_native_valid_center_psnr_sd": 0.0023444574268629967,
+      "observation_psnr_mean": 19.710249451735706,
+      "observation_psnr_sd": 0.002327893640692864
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "track": "controlled",
+      "method": "analytic",
+      "device": "mps",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "reference_psnr_mean": 20.01688586428302,
+      "reference_psnr_sd": 0.006545999009943078,
+      "reference_ssim_mean_mean": 0.8779222130775453,
+      "reference_ssim_mean_sd": 0.00022757586064058814,
+      "depth_rmse_m_mean": 0.1335230409195486,
+      "depth_rmse_m_sd": 0.0011618008235830203,
+      "alpha90_coverage_mean": 0.8107558449109394,
+      "alpha90_coverage_sd": 0.0007910932524512866,
+      "full_native_valid_center_psnr_mean": 13.048742050775024,
+      "full_native_valid_center_psnr_sd": 0.0109564394908728,
+      "observation_psnr_mean": 21.31885030455592,
+      "observation_psnr_sd": 0.006211467594954992
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "track": "controlled",
+      "method": "midpoint",
+      "device": "mps",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "reference_psnr_mean": 20.322838324382943,
+      "reference_psnr_sd": 0.007893735506072584,
+      "reference_ssim_mean_mean": 0.8920968413352967,
+      "reference_ssim_mean_sd": 0.00021227964979802458,
+      "depth_rmse_m_mean": 0.1392266728811062,
+      "depth_rmse_m_sd": 0.0012980148555992738,
+      "alpha90_coverage_mean": 0.8123900175094604,
+      "alpha90_coverage_sd": 0.0005231371005269789,
+      "full_native_valid_center_psnr_mean": 13.37885267108868,
+      "full_native_valid_center_psnr_sd": 0.014233743240754453,
+      "observation_psnr_mean": 21.557886029461446,
+      "observation_psnr_sd": 0.010338866776244635
+    }
+  ],
+  "pairs": [
+    {
+      "sequence": "freiburg1_xyz",
+      "track": "native",
+      "metric": "midpoint minus analytic reference PSNR(dB)",
+      "per_seed": [
+        -0.014167571955212566,
+        -0.01219046531058865,
+        -0.013243535195332612
+      ],
+      "mean": -0.013200524153711276,
+      "sample_sd": 0.0009892548374054201,
+      "midpoint_wins": 0,
+      "analytic_wins": 3
+    },
+    {
+      "sequence": "freiburg1_xyz",
+      "track": "controlled",
+      "metric": "midpoint minus analytic reference PSNR(dB)",
+      "per_seed": [
+        0.04914178718573936,
+        0.05620062549888871,
+        0.05817316649244475
+      ],
+      "mean": 0.05450519305902427,
+      "sample_sd": 0.004748401985300433,
+      "midpoint_wins": 3,
+      "analytic_wins": 0
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "track": "native",
+      "metric": "midpoint minus analytic reference PSNR(dB)",
+      "per_seed": [
+        -0.0005850842915329224,
+        -0.007781770240608665,
+        0.002579493010191669
+      ],
+      "mean": -0.0019291205073166395,
+      "sample_sd": 0.005309780508655705,
+      "midpoint_wins": 1,
+      "analytic_wins": 2
+    },
+    {
+      "sequence": "freiburg1_desk",
+      "track": "controlled",
+      "metric": "midpoint minus analytic reference PSNR(dB)",
+      "per_seed": [
+        0.30930866907728927,
+        0.30066347495858636,
+        0.30788523626389974
+      ],
+      "mean": 0.3059524600999251,
+      "sample_sd": 0.004635360084452463,
+      "midpoint_wins": 3,
+      "analytic_wins": 0
+    }
+  ]
+}
